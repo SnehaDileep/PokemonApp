@@ -2,37 +2,82 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-image: url("https://images.pexels.com/photos/1310847/pexels-photo-1310847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+h1{
+  color: aliceblue;
+}
+.divTable{
+  display: table;
+        /* max-width: 25%;  */
+  max-width: 20em; 
+  float: right;
+    /* no changes below*/
+    display: flex;  
+    align-items: center;       
+}
+  /* no changes below .but change will come after writing divtablecell and divtablehead if we commend the below code*/
+ .divTableRow {
+  display: table-row;
+} 
+/* no changes below*/
+ .divTableHeading{
+  background-color: rgb(219, 219, 219);
+  display: table-header-group;
+  font-weight: bold;
+} 
+
+.divTableCell,
+.divTableHead{
+  border: 1px solid rgba(208, 103, 5, 0.6);
+  display: table-cell;
+  padding: 3px 10px;
+}
+/* no changes below*/
+.divTableFoot {
+  background-color: rgb(219, 219, 219);
+  display: table-footer-group;
+  font-weight: bold;
+}
+/* no changes below*/
+ .divTableBody{
+  display: table-row-group;
+} 
+
+.divTableCell:nth-child(1n){
+  background-color: azure;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  opacity: 0.9;
+  /* background-color: #99aaab; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mb-3
+{
+  margin: 7rem auto;
+  align-items: center;
+  padding-left: 30%;
 }
+.form-control {
+  width: fit-content;
+  box-sizing: content-box;   
+  font-size: 1rem; 
+  padding: 2rem; 
+  display:block; 
+  margin-right: 40%;
+  /* margin: 0rem auto;    */
+}   
+
