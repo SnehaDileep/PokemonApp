@@ -14,18 +14,15 @@ h1{
 }
 .divTable{
   display: table;
-        /* max-width: 25%;  */
   max-width: 20em; 
   float: right;
-    /* no changes below*/
     display: flex;  
     align-items: center;       
 }
-  /* no changes below .but change will come after writing divtablecell and divtablehead if we commend the below code*/
+  
  .divTableRow {
   display: table-row;
 } 
-/* no changes below*/
  .divTableHeading{
   background-color: rgb(219, 219, 219);
   display: table-header-group;
@@ -38,13 +35,11 @@ h1{
   display: table-cell;
   padding: 3px 10px;
 }
-/* no changes below*/
 .divTableFoot {
   background-color: rgb(219, 219, 219);
   display: table-footer-group;
   font-weight: bold;
 }
-/* no changes below*/
  .divTableBody{
   display: table-row-group;
 } 
