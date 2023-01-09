@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/PokemonApp/static/css/main.5025ee0f.css",
+    "main.js": "/PokemonApp/static/js/main.a05357bf.js",
+    "static/js/787.e36af3d9.chunk.js": "/PokemonApp/static/js/787.e36af3d9.chunk.js",
+    "static/media/fa-solid-900.ttf": "/PokemonApp/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/PokemonApp/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/PokemonApp/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/PokemonApp/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/PokemonApp/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/PokemonApp/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/PokemonApp/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/PokemonApp/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/PokemonApp/index.html",
+    "main.5025ee0f.css.map": "/PokemonApp/static/css/main.5025ee0f.css.map",
+    "main.a05357bf.js.map": "/PokemonApp/static/js/main.a05357bf.js.map",
+    "787.e36af3d9.chunk.js.map": "/PokemonApp/static/js/787.e36af3d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5025ee0f.css",
+    "static/js/main.a05357bf.js"
+  ]
+}
